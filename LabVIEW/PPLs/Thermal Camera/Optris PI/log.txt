@@ -1,0 +1,2 @@
+C:\Users\jose.rivero-diaz.LUMINARTECH\Downloads\libirimager-8.7.0-windows (2)\irDirectSDK\examples\labview\generic.xml
+1

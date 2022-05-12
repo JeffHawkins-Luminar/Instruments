@@ -1,0 +1,2 @@
+C:\AME Test Engineering\LabVIEW\Instruments\Thermal Camera\Optris PI\generic.xml
+1

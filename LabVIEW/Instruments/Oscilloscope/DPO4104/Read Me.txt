@@ -1,0 +1,2 @@
+If interfacing with the DPO4104 instrument via Ethernet, go to the network settings, change DHCP
+to OFF and manually type the desired address. (Recommended IP: 192.168.200.4, Subnet: 255.255.255.0)

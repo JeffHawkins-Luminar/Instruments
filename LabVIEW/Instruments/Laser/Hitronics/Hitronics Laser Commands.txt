@@ -1,0 +1,90 @@
+
+*Read Serial Number of the Laser*
+Command: read-sn
+Command (hex): AA55 0004 8084
+Response: AA55 0014 8048 3231 3233 3030 3036 0000 0000 0000 006A 
+
+*Read Part Number of the Laser*
+Command: read-pn
+Command (hex): AA55 0004 8589
+Response: AA55 0014 8545 5346 4C2D 3135 3530 4531 3236 2D32 5048 
+
+*Set Control Mode to ACC*
+Command: set-control-mode 01
+Command (hex): AA55 0006 8C00 0193
+
+*Set Control Mode to APC*
+Command: set-control-mode 02
+Command: AA55 0006 8C00 0294
+
+*Set Output Power to 100*
+Command: set-output-power 100
+Command (hex): AA55 0006 8A00 64F4 
+
+*Read Output Power*
+Command: read-output-power
+Command (hex): AA55 0004 8B8F
+
+
+*Turn Laser ON*
+Command: soft-enable
+Command (hex): AA55 0005 8401 8A
+Response: AA55 0004 8488 
+
+*Turn Laser OFF*
+Command: soft-disable
+Command: AA55 0005 8400 89
+Response: AA55 0004 8488 
+
+*Set Pump Current 100*
+Command: set-pump-current 100
+Command (hex): AA55 0008 8700 0000 64F3
+Response: AA55 0004 878B 
+
+*Set Pump Current 115*
+Command: set-pump-current 115
+Command (hex): AA55 0008 8700 0000 7302
+
+*Set Pump Current 125*
+Command: set-pump-current 125
+Command (hex): AA55 0008 8700 0000 7D0C
+
+*Set Pump Current 200*
+Command: set-pump-current 200
+Command (hex): AA55 0008 8700 0000 C857
+
+
+*Reset Laser or Turn OFF*
+Command: soft-reset
+Command (hex): AA55 0005 8655 E0
+Empty response if successful
+
+
+*Get Optical Power*
+Command: get-optical-power
+Command (hex): AA55 0004 8E92
+Response: AA55 0006 8E00 0094 
+
+*Get Trigger Frequence*
+Command: get-trigger-freq
+Command (hex): AA55 0004 898D 
+Response: AA55 0006 8900 32C1 
+
+*HB Enable (Read Module Status)*
+Command: hb-enable
+Command (hex): AA55 0004 8387
+Response 1: AA55 0020 8341 C4AC B700 0105 9F00 0005 1400 0001 D600 0118 7F01 8600 0000 0000 00BF
+Byte 4 (hex 20 ~ decimal 32) is lenght (in bytes) of the data including checksum.
+Byte 5 (hex 83) is command to read Module Status.
+Byte 6 - 9 (41 C4 AC B7) is Module Temperature in deg C. Convert hex data to single precision float.
+Byte 9 - 10 (00 01) is Current. Convert hex value to U16 (unsigned word). Then divide it by const 0.044265 to get current value.
+Byte 11 - 20 Reserved
+Byte 21 - 22 (00 01) is Pump Pin Status. Convert hex to I16 (signed word). '0' is OFF, '1' is ON.
+Byte 23 - 28 Reserved
+Byte 29 - 30 (00 00) is Pump Laser Status. Convert hex to I16 (signed word). '0' is OFF, '1' is ON.
+Byte 31 - 32 (00 00) is Temperature Alarm Status. Convert hex to I16 (signed word). '0' is 'Alarm', '1' is 'Normal'.
+Byte 33 (hex BF) is Checksum.
+
+
+Response 2: AA55 0020 8341 CEA6 8700 0105 A500 0004 EB00 0001 D600 0118 7101 8600 0000 0000 0061 
+

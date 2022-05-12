@@ -1,0 +1,131 @@
+ Program
+   BeforeStart
+     conn≔ False 
+   Robot Program
+     Set
+     Loop conn≟ False 
+       conn≔socket_open("192.168.0.101",50001)
+       Wait: 0.01
+     MoveJ
+       Waypoint_1
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_H
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_H10
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_H20
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_C30
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_C20
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_C10
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_C
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_L10
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_L20
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_H10r
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_H20r
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_C30r
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_C20r
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_C10r
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_L10r
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_L20r
+       Wait: 2.0
+       TCP_Pose≔get_actual_tcp_pose()
+       str≔to_str(TCP_Pose)
+       socket_send_string(str)
+       socket_send_byte(13)
+       'Wait: 2.0'
+       Waypoint_1
+       socket_close()
+       Wait DI[0]=HI

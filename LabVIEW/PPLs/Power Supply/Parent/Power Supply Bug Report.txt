@@ -1,0 +1,9 @@
+Power Supply Device Specifier not accessible - Feature Implemented 7/18/2018  Ron Dexter
+Power Supply - Missing accessors for Configuration, Setting.  Reorganized folder convention.  Feature Implemented 8/10/2018 Ron Dexter
+
+9/6/2018 - Added Protection Settings VI - allows overcurrent protection
+9/6/2018 - Added Lock Front Panel VI - Allows programmatic locking of supply front panel
+9/20/2018 - Added Clear Interlock Alarm - Allows programmatic clearing of alarm status
+9/20/2018 - Added Query Alarm - checks power supply for alarm state
+9/20/2018 - Added Reset - Allows programmatic reset of power supply 
+12/12/2018 - Ron Dexter - Updated to LV 2018

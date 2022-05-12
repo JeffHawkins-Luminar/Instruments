@@ -1,0 +1,1 @@
+This class  is not derived from a parent class nor is intended to have child classes inheriting from it. BFECC is a unique tool, therefore the stand-alone state of this class.
