@@ -41,8 +41,26 @@
 		</Item>
 	</Item>
 	<Item Name="Methods" Type="Folder">
+		<Item Name="Challenge Cipher.vi" Type="VI" URL="../Methods/Challenge Cipher.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#%!!!!"!!%!!!!%E!Q`````QB3:8.Q&lt;WZT:1!!%E!Q`````QF$;'&amp;M&lt;'6O:W5!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!)$!!"Y!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!AA!!!!!!1!$!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+		</Item>
 		<Item Name="Create Message.vi" Type="VI" URL="../Methods/Create Message.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(!!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!-E!]1!!!!!!!!!$$V2F&lt;'ZF&gt;#"7-CZM&gt;GRJ9B&amp;5:7RO:81A6D)O&lt;(:D&lt;'&amp;T=R&gt;F&lt;H6N8V2F&lt;'ZF&gt;&amp;^"9X2J&lt;WZT,G.U&lt;!#(1"9!#AN49W&amp;O)%6O97*M:1R49W&amp;O)%2J=W&amp;C&lt;'5'17.U;8:F"V.U97ZE9HE/1WBB&lt;G&gt;F)%6-)&amp;.D97Y/1WBB&lt;G&gt;F)%&amp;;)&amp;.D97Y.5W6U)%2B&gt;'%A17RH&lt;QV"9W.F=X-A5XFT&gt;'6N$%&amp;D9W6T=S"-98.F=A2&amp;?'FU!!:"9X2J&lt;WY!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/E"Q!"Y!!#-06'6M&lt;G6U)&amp;9S,GRW&lt;'FC%62F&lt;'ZF&gt;#"7-CZM&gt;G.M98.T!!R5:7RO:81A6D)A;7Y!!&amp;1!]!!-!!-!"!!%!!1!"!!%!!1!"1!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!+!!!!!!!!!!!!!!!)!!!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(5!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!-0````],476T=W&amp;H:3"0&gt;81!S1$R!!!!!!!!!!-06'6M&lt;G6U)&amp;9S,GRW&lt;'FC%62F&lt;'ZF&gt;#"7-CZM&gt;G.M98.T&amp;W6O&gt;7V@6'6M&lt;G6U8U&amp;D&gt;'FP&lt;H-O9X2M!)&gt;!&amp;A!+#V.D97YA27ZB9GRF$&amp;.D97YA2'FT97*M:1:"9X2J&gt;G5(5X2B&lt;G2C?1Z$;'&amp;O:W5A25QA5W.B&lt;AZ$;'&amp;O:W5A16IA5W.B&lt;AV4:81A2'&amp;U93""&lt;'&gt;P$5&amp;D9W6T=S"4?8.U:7U-17.D:8.T)%RB=W6S"%6Y;81!"E&amp;D&gt;'FP&lt;A!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1![1(!!(A!!)Q^5:7RO:81A6D)O&lt;(:M;7)26'6M&lt;G6U)&amp;9S,GRW9WRB=X-!$&amp;2F&lt;'ZF&gt;#"7-C"J&lt;A!!6!$Q!!Q!!Q!%!!5!"!!%!!1!"!!'!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!I!!!!!!!!!!!!!!!I!!!!!!1!*!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
+		<Item Name="Send Telnet Message.vi" Type="VI" URL="../Methods/Send Telnet Message.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%"!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!51$$`````#EVF=X.B:W5A37Y!!$J!=!!?!!!D$V2F&lt;'ZF&gt;#"7-CZM&gt;GRJ9B&amp;5:7RO:81A6D)O&lt;(:D&lt;'&amp;T=Q!-6'6M&lt;G6U)&amp;9S)'FO!!"5!0!!$!!$!!1!"!!%!!1!"!!%!!1!"1!%!!9!"Q-!!(A!!!U)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!%+!!!!#!!!!!!"!!A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
@@ -89,13 +107,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 		<Item Name="Send TCP Command.vi" Type="VI" URL="../Override/Send TCP Command.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+&lt;!!!!%Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!D$V2F&lt;'ZF&gt;#"7-CZM&gt;GRJ9B&amp;5:7RO:81A6D)O&lt;(:D&lt;'&amp;T=Q!.6'6M&lt;G6U)&amp;9S)'^V&gt;!!F1"9!!A63:8.J&lt;1N1&lt;WFO&gt;#"$&lt;'^V:!!,2'&amp;U93"0&gt;82Q&gt;81!MQ$R!!!!!!!!!!--4'F%16)O&lt;(:M;7*Q$5RJ2%&amp;3,GRW9WRB=X-=:7ZN8U&amp;D&gt;'FP&lt;H.@:G^S8URJ2%&amp;38U&amp;&amp;,G.U&lt;!"T1"9!"QR49W&amp;O)%2J=W&amp;C&lt;'5,5W.B&lt;C"&amp;&lt;G&amp;C&lt;'5(5X2B&lt;G2C?1Z$;'&amp;O:W5A25QA5W.B&lt;AZ$;'&amp;O:W5A16IA5W.B&lt;B*&amp;&lt;G&amp;C&lt;'5A5'^J&lt;H1A1WRP&gt;71-27ZB9GRF)&amp;*F=WFN!!!'17.U;7^O!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!F!#A!$2E^7!!V!#A!'4W:G=W6U!!!D1"9!!AB5=GFB&lt;G&gt;M:124&lt;G&amp;Q!!R49W&amp;O)&amp;"B&gt;(2F=GY!!!^!#A!*2H*F=86F&lt;G.Z!"B!5!!%!!E!#A!,!!Q*27RF&gt;G&amp;U;7^O!!^!#A!*47FO)$Y^,49Q!"&amp;!#A!+47&amp;Y)$Q^+T9Q)!!!%E"1!!)!$A!0"U&amp;[;7VV&gt;'A!/E"Q!"Y!!#-06'6M&lt;G6U)&amp;9S,GRW&lt;'FC%62F&lt;'ZF&gt;#"7-CZM&gt;G.M98.T!!R5:7RO:81A6D)A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!9!"Q!)!!U!%!!2!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!#!!!!!A!!!!)!!!!#!!!!!A!!!#1!!!!!!%!%A!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!D$V2F&lt;'ZF&gt;#"7-CZM&gt;GRJ9B&amp;5:7RO:81A6D)O&lt;(:D&lt;'&amp;T=Q!.6'6M&lt;G6U)&amp;9S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$J!=!!?!!!D$V2F&lt;'ZF&gt;#"7-CZM&gt;GRJ9B&amp;5:7RO:81A6D)O&lt;(:D&lt;'&amp;T=Q!-6'6M&lt;G6U)&amp;9S)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
 		</Item>
 		<Item Name="Send UDP Command.vi" Type="VI" URL="../Override/Send UDP Command.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!D$V2F&lt;'ZF&gt;#"7-CZM&gt;GRJ9B&amp;5:7RO:81A6D)O&lt;(:D&lt;'&amp;T=Q!.6'6M&lt;G6U)&amp;9S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$J!=!!?!!!D$V2F&lt;'ZF&gt;#"7-CZM&gt;GRJ9B&amp;5:7RO:81A6D)O&lt;(:D&lt;'&amp;T=Q!-6'6M&lt;G6U)&amp;9S)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
