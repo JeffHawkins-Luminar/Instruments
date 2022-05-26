@@ -10,12 +10,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Test Code" Type="Folder" URL="../Test Code">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Telnet V2.lvlib" Type="Library" URL="../Telnet V2.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
-				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Configuration.lvlibp" Type="LVLibp" URL="../../../../PPLs/Configuration/Configuration.lvlibp">
 				<Item Name="Tools" Type="Folder">
@@ -40,6 +43,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="../../../../PPLs/Configuration/Configuration.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="LiDAR.lvlibp" Type="LVLibp" URL="../../../../PPLs/LiDAR/Parent/LiDAR.lvlibp">
+				<Item Name="enm_Actions_for_LiDAR_AE.ctl" Type="VI" URL="../../../../PPLs/LiDAR/Parent/LiDAR.lvlibp/Controls/enm_Actions_for_LiDAR_AE.ctl"/>
 				<Item Name="LiDAR.lvclass" Type="LVClass" URL="../../../../PPLs/LiDAR/Parent/LiDAR.lvlibp/LiDAR.lvclass"/>
 			</Item>
 		</Item>
