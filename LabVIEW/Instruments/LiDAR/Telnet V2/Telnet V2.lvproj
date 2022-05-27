@@ -43,7 +43,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="../../../../PPLs/Configuration/Configuration.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="LiDAR.lvlibp" Type="LVLibp" URL="../../../../PPLs/LiDAR/Parent/LiDAR.lvlibp">
-				<Item Name="enm_Actions_for_LiDAR_AE.ctl" Type="VI" URL="../../../../PPLs/LiDAR/Parent/LiDAR.lvlibp/Controls/enm_Actions_for_LiDAR_AE.ctl"/>
 				<Item Name="LiDAR.lvclass" Type="LVClass" URL="../../../../PPLs/LiDAR/Parent/LiDAR.lvlibp/LiDAR.lvclass"/>
 			</Item>
 		</Item>
@@ -52,24 +51,25 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A1FC8A54-02B9-4516-A340-447E24586FB4}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Telnet V2</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/AME Test Engineering/LabVIEW/PPLs/NI_AB_PROJECTNAME/Parent</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/AME Test Engineering/LabVIEW/PPLs/LiDAR/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D88771D3-6DCC-4288-AEB8-1B3B1BE1F6F1}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">LiDAR.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/AME Test Engineering/LabVIEW/PPLs/NI_AB_PROJECTNAME/Parent/Telnet V2.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Telnet V2.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/AME Test Engineering/LabVIEW/PPLs/LiDAR/NI_AB_PROJECTNAME/Telnet V2.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/AME Test Engineering/LabVIEW/PPLs/NI_AB_PROJECTNAME/Parent</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/AME Test Engineering/LabVIEW/PPLs/LiDAR/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D634447E-F396-46C3-A730-5ABEDBB78926}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9CBE7660-145B-4D02-A56F-30A091C72D18}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Telnet V2.lvlib</Property>
@@ -85,7 +85,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 </Property>
 				<Property Name="TgtF_productName" Type="Str">Telnet V2</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{91BD7447-9F1E-406D-9BA7-C82B84E8A170}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">LiDAR.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Telnet V2.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
