@@ -10,6 +10,7 @@
 
 </Property>
 	<Item Name="Custom Controls" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Axis.ctl" Type="VI" URL="../Custom Controls/Axis.ctl"/>
 		<Item Name="Command.ctl" Type="VI" URL="../Custom Controls/Command.ctl"/>
 		<Item Name="Jog Direction.ctl" Type="VI" URL="../Custom Controls/Jog Direction.ctl"/>

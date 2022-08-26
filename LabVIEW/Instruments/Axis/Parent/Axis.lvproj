@@ -39,10 +39,9 @@
 			<Item Name="Axis" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">{A12DD764-5F19-4EF3-92A8-8A1B26C910F9}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Axis</Property>
-				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/AME Test Engineering/LabVIEW/PPLs/NI_AB_PROJECTNAME/Parent</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FFE92511-16E3-4C0E-91D3-4AF3584307FB}</Property>
@@ -58,7 +57,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4014D676-CBFB-425C-BA3C-BA4F2B2733D4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{402E0EA5-1B32-41DA-96D1-E8FDCDB711E1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Axis.lvlib</Property>
